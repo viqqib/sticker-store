@@ -28,12 +28,12 @@ const ProductPage = () => {
         
         <div className="flex w-full flex-wrap md:flex-row md:w-full gap-5 justify-center md:gap-10 mt-5">
           {/* Render ProductStickerCard components */}
-          <ProductStickerCard text="Meme" src={memeimg} srcpin={memepin} link="products/meme" />
-          <ProductStickerCard text="Music" src={musicimg} srcpin={musicpin} link="products/music"/>
-          <ProductStickerCard text="Quote" src={quotesimg} srcpin={quotespin} link="products/quote" />
-          <ProductStickerCard text="Anime" src={animeimg} srcpin={animepin} link="products/anime"/>
-          <ProductStickerCard text="Kpop" src={kpopimg} srcpin={kpoppin} link="products/kpop"/>
-          <ProductStickerCard text="Animal" src={animalimg} srcpin={animalpin} link="products/animal" />
+          <ProductStickerCard text="Meme" src={memeimg} srcpin={memepin} link="store" />
+          <ProductStickerCard text="Music" src={musicimg} srcpin={musicpin} link="store"/>
+          <ProductStickerCard text="Quote" src={quotesimg} srcpin={quotespin} link="store" />
+          <ProductStickerCard text="Anime" src={animeimg} srcpin={animepin} link="store"/>
+          <ProductStickerCard text="Kpop" src={kpopimg} srcpin={kpoppin} link="store"/>
+          <ProductStickerCard text="Animal" src={animalimg} srcpin={animalpin} link="store" />
 
         </div>
 
