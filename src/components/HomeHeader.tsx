@@ -55,7 +55,7 @@ const Navbar = () => {
                 </div>
                
                 <ul
-          className={`md:flex md:items-center md:pb-0 md:pb-0 pb-5 absolute md:static bg-creamst md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-10 transition-all duration-500 ease-in ${
+          className={`md:flex md:items-center md:pb-0 pb-5 absolute md:static bg-creamst md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-10 transition-all duration-500 ease-in ${
             open ? "top-18" : "top-[-250px]"
           } border-b-4 border-stickered border-dashed md:border-none`}
         >

@@ -13,7 +13,7 @@ const Homepage = () => {
         <div className='container mt-60 mb-52 w-full flex flex-col lg:flex-row items-center lg:items-center  lg:justify-between'>
 
             <div className='relative px-5 lg:px-0 text-creamst flex flex-col text-5xl lg:text-7xl font-nunito'>
-            <span className='text-shadow-custom font-extrabold z-10 '>Beli</span>
+                <span className='text-shadow-custom font-extrabold z-10 '>Beli</span>
                 <span className='text-shadow-custom font-black z-10 '>Stiker & Pin</span>
                 <span className='text-shadow-custom font-black z-10 '>Disini</span>
                 {/* <img src={circlecheck} className='absolute z-0 -top-6 -left-10 w-full lg:w-3/4 lg:-left-32 lg:-top-16' alt="" /> */}

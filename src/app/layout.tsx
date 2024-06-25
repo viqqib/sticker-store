@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { StoreProvider } from '@/redux/StoreProvider';
+import '@fontsource/dm-sans/latin.css';
+import '@fontsource/dm-serif-display/latin.css';
+import 'tailwindcss/tailwind.css';
+import '@fontsource/nunito-sans/latin.css'; 
+
 
 
 const inter = Inter({ subsets: ["latin"] });

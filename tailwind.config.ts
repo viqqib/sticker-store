@@ -3,9 +3,8 @@ import plugin from 'tailwindcss/plugin';
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/app/**/*.{js,ts,jsx,tsx}',
+    './src/components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
@@ -25,9 +24,9 @@ const config: Config = {
         stickeryellow: "#FEC50A",
       },
       fontFamily: {
-        nunito: ['Nunito Sans', 'sans-serif', 'black'],
         sans: ['DM Sans', 'sans-serif'],
         serif: ['DM Serif Display', 'serif'],
+        nunito: ['"Nunito Sans"', 'sans-serif'],
       },
       textShadow: {
         custom: '3px 3px 0px rgba(208, 97, 70, 1)',
