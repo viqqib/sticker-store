@@ -22,11 +22,13 @@ const Store = () => {
 
     return (
         <div>
-            <div className={`flex flex-col transition-margin duration-300 ${openSidebar ? 'mr-52' : 'mr-0'}`}>
 
-            <StoreHeader onClick={handleCartClick} margin={"mr-52"}/>
+            <StoreHeader onClick={handleCartClick} cartMargin={openSidebar ? 'md:mr-40 mr-52 duration-300' : 'mr-0 duration-300'} logoOpacity={openSidebar ? 'md:opacity-100 duration-300 opacity-0' : 'opacity-100 duration-300'}/>
+
+            <div className={`flex flex-col transition-margin duration-300 ${openSidebar ? '' : 'mr-0'}`}>
+
         
-            <div className={`flex mt-24 gap-5 md:gap-5 flex-wrap justify-center px-2 ${openSidebar ? 'md:px-4' : 'md:px-20'}`}>
+            <div className={`flex mt-24 gap-5 md:gap-5 flex-wrap justify-center px-2 ${openSidebar ? 'md:px-20' : 'md:px-20'}`}>
                 {products.map(product => (
                     <ProductItem key={product.id} product={product}/>
                 ))}
