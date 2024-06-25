@@ -2,15 +2,18 @@ import Link from "next/link"
 import { useSelector } from "react-redux"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons"
+import logoKoala from '../../public/images/logo.svg'
+import Image from "next/image";
 
 export default function StoreHeader(props) {
     const { loading, cartItems } = useSelector((state) => state.cart)
     return(
         <div className={`mr-52  w-full bg-creamst border-b-4 border-stickered border-dashed text-greenst z-50`}>
 
-            <div className="px-10 py-7 flex justify-between items-center">
-                <div className="text-2xl font-bold">
-                    Stickoala Store
+            <div className="md:px-24 px-10 py-7 flex justify-between items-center">
+                <div className="text-2xl font-bold flex justify-center items-center">
+                <Image src={logoKoala} alt="Stickoala Logo" width={40} height={40} />
+                    <h1 className="font-serif text-3xl ml-1">Store</h1>
                 </div>
 
                 <div className="text-xl flex relative items-center flex-col cursor-pointer" onClick={props.onClick}>

@@ -7,6 +7,8 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll"; 
+import logoKoala from '../../public/images/logo.svg'
+import Image from "next/image";
 
 // index.js or App.js
 
@@ -45,6 +47,8 @@ const Navbar = () => {
             <div className={`md:px-20 px-10 py-6 md:py-5 text-greenst bg-creamst w-screen md:flex md:justify-between md:items-center ${open ? 'border-none' : 'border-b-4 border-stickered border-dashed'}`}>
                 <h1 className="flex logokoala items-center gap-1 z-20 font-medium font-serif text-4xl cursor-pointer duration-300"
                 >
+                    <Image src={logoKoala} alt="Stickoala Logo" width={40} height={40} />
+                    <img src={logoKoala} alt="" />
                     Stickoala
                 </h1>
                 <div 
