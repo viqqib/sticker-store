@@ -1,7 +1,6 @@
 'use client'
 import { data } from '@/utils/data';
 import ProductItem from '@/components/ProductItem';
-import ProductHeader from '@/components/ProductHeader';
 import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { hideLoading } from '@/redux/slices/cartSlice'; 
