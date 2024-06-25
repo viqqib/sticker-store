@@ -22,7 +22,7 @@ import { Link as ScrollLink } from "react-scroll";
 const Navbar = () => {
     let links = [
         { name: 'Home', link: 'home-section' },
-        { name: 'Products', link: 'product-section' },
+        { name: 'Collection', link: 'product-section' },
         { name: 'Contact', link: 'contact-section' },
         { name: 'About', link: 'about-section' },
     ];
@@ -42,13 +42,13 @@ const Navbar = () => {
     
     return (
         <div className="navkoala fixed top-0 left-0 right-0 z-50">
-            <div className={`md:px-20 px-10 py-3 text-greenst bg-creamst w-screen md:flex md:justify-between md:items-center ${open ? 'border-none' : 'border-b-4 border-stickered border-dashed'}`}>
+            <div className={`md:px-20 px-10 py-7 md:py-5 text-greenst bg-creamst w-screen md:flex md:justify-between md:items-center ${open ? 'border-none' : 'border-b-4 border-stickered border-dashed'}`}>
                 <h1 className="flex logokoala items-center gap-1 z-20 font-medium font-serif text-4xl cursor-pointer duration-300"
                 >
                     Stickoala
                 </h1>
                 <div 
-                    className="absolute text-2xl right-10 top-4 hover:text-stickered duration-300 md:hidden cursor-pointer"
+                    className="absolute text-2xl right-10 top-7 hover:text-stickered duration-300 md:hidden cursor-pointer"
                     onClick={handleOnClickBars}
                 >
                      <FontAwesomeIcon icon={open ? faXmark : faBars } />
@@ -56,7 +56,7 @@ const Navbar = () => {
                
                 <ul
           className={`md:flex md:items-center md:pb-0 pb-5 absolute md:static bg-creamst md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-10 transition-all duration-500 ease-in ${
-            open ? "top-18" : "top-[-250px]"
+            open ? "top-20" : "top-[-250px]"
           } border-b-4 border-stickered border-dashed md:border-none`}
         >
           {links.map((link, index) => (
