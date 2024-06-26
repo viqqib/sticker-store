@@ -22,7 +22,7 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 
 
-const Navbar = () => {
+const Navbar = (props) => {
     let links = [
         { name: 'Home', link: 'home-section' },
         { name: 'Collection', link: 'product-section' },
@@ -46,9 +46,14 @@ const Navbar = () => {
     return (
         <div className="navkoala fixed top-0 left-0 right-0 z-50">
             <div className={`md:px-20 px-10 py-6 md:py-5 text-greenst bg-creamst w-screen md:flex md:justify-between md:items-center ${open ? 'border-none' : 'border-b-4 border-stickered border-dashed'}`}>
-
+                
                 <h1 className="flex logokoala items-center gap-1 z-20 font-medium font-serif text-4xl cursor-pointer duration-300"
                 > 
+                    <a href="/" className={`${props.display}`}>
+                      <div  className="text-3xl mr-3 ">
+                        <FontAwesomeIcon icon={faArrowLeft}/>
+                      </div>
+                    </a>
                     <Image src={logoKoala} alt="Stickoala Logo" width={40} height={40} />
                     <img src={logoKoala} alt="" />
                     Stickoala

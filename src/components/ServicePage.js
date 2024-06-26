@@ -16,14 +16,14 @@ const ServicePage = () => {
           
 
             <ServiceCard
-            link="/services/document"
+            link="/services"
             image={documentIcon}
             alt="Description of the image"
             title="Print Document"
             />
 
             <ServiceCard
-            link="/services/sticker"
+            link="/services"
             image={stickerIcon}
             alt="Description of the image"
             title="Print Sticker"
