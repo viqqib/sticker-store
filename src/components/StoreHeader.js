@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons"
 import logoKoala from '../../public/images/logo.svg'
 import Image from "next/image";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 
 export default function StoreHeader(props) {
     const { loading, cartItems } = useSelector((state) => state.cart)
@@ -11,6 +12,11 @@ export default function StoreHeader(props) {
         <div className={`mr-52  w-full bg-creamst border-b-4 border-stickered border-dashed text-greenst z-50`}>
 
             <div className="md:px-24 px-10 py-7 flex justify-between items-center ">
+            <a href="/">
+                      <div  className="text-3xl mr-3 ">
+                        <FontAwesomeIcon icon={faArrowLeft}/>
+                      </div>
+                    </a>
                 <div className={`text-2xl font-bold flex justify-center ${props.logoOpacity} items-center`}>
                     <Image src={logoKoala} alt="Stickoala Logo" width={40} height={40} />
                     <h1 className="font-serif text-3xl ml-1">Store</h1>
