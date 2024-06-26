@@ -26,7 +26,7 @@ const Homepage = () => {
 
                 <Link  href={"/store"} >
                 <button className='relative  z-10 duration-300 text-stickeryellow py-3 rounded-md px-10 lg:px-0 lg:w-1/4 text-sm lg:text-xl bg-stickered mt-5 font-bold hover:bg-stickeryellow hover:text-stickered'>
-                        Buy Now
+                        Go To Store
                 </button>
                 </Link>
                 <ScrollLink
@@ -38,7 +38,7 @@ const Homepage = () => {
                     activeClass="text-stickered"
                 >
                 <button className='relative  z-10 duration-300 text-stickeryellow py-3 rounded-md px-10 lg:px-0 lg:w-1/4 text-sm lg:text-xl ml-4 bg-stickered mt-5 font-bold hover:bg-stickeryellow hover:text-stickered'>
-                        Other Services
+                        Collection & Services
                 </button>
                 </ScrollLink>
                 </div>

@@ -25,7 +25,7 @@ const Navbar = () => {
     let links = [
         { name: 'Home', link: 'home-section' },
         { name: 'Collection', link: 'product-section' },
-        { name: 'Contact', link: 'contact-section' },
+        { name: 'Service', link: 'service-section' },
         { name: 'About', link: 'about-section' },
     ];
     
