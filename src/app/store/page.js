@@ -23,7 +23,7 @@ const Store = () => {
     return (
         <div>
 
-            <StoreHeader text='Store' backUrl="/" onClick={handleCartClick} cartMargin={openSidebar ? 'md:mr-40 mr-52 duration-300' : 'mr-0 duration-300'} logoOpacity={openSidebar ? 'md:opacity-100 duration-300 opacity-0' : 'opacity-100 duration-300'}/>
+            <StoreHeader text='Store' backUrl="/" onClick={handleCartClick} cartMargin={openSidebar ? 'md:mr-40 mr-52 duration-300' : 'mr-0 duration-300'} logoOpacity={openSidebar ? 'md:opacity-100 -mr-10 duration-300 opacity-0' : 'opacity-100 duration-300'}/>
 
             <div className={`flex flex-col transition-margin duration-300 ${openSidebar ? '' : 'mr-0'}`}>
 
