@@ -4,6 +4,7 @@ import ProductPage from "@/components/ProductPage";
 import Navbar from "@/components/HomeHeader";
 import ServicePage from '@/components/ServicePage'
 
+
 export default function Home() {
   return (
     <main className="px-5 md:px-24">
@@ -11,6 +12,7 @@ export default function Home() {
       <Homepage />
       <ProductPage />
       <ServicePage />
+
     </main>
   );
 }
