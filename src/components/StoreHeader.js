@@ -9,7 +9,7 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 export default function StoreHeader(props) {
     const { loading, cartItems } = useSelector((state) => state.cart)
     return(
-        <div className={`mr-52  w-full bg-creamst border-b-4 border-stickered border-dashed text-greenst z-50`}>
+        <div className={`mr-52 fixed w-full bg-creamst border-b-4 border-stickered border-dashed text-greenst z-40`}>
 
             <div className="md:px-24 px-10 py-7 flex justify-between items-center ">
             <a href="/">

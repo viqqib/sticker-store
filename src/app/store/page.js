@@ -28,7 +28,7 @@ const Store = () => {
             <div className={`flex flex-col transition-margin duration-300 ${openSidebar ? '' : 'mr-0'}`}>
 
         
-            <div className={`flex mt-24 gap-5 md:gap-5 flex-wrap justify-center px-2 ${openSidebar ? 'md:px-20' : 'md:px-20'}`}>
+            <div className={`flex mt-32 gap-5 md:gap-5 flex-wrap justify-center px-2 ${openSidebar ? 'md:px-20' : 'md:px-20'}`}>
                 {products.map(product => (
                     <ProductItem key={product.id} product={product}/>
                 ))}

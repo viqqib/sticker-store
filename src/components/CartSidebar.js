@@ -21,7 +21,7 @@ export default function CartSidebar(props) {
 
     return (
 <div
-      className={`fixed top-0 right-0 w-52 h-full bg-stickeryellow shadow-lg border-l-4 border-dashed border-stickered overflow-scroll transform transition-transform duration-300 ${
+      className={`z-50 fixed top-0 right-0 w-52 h-full bg-stickeryellow shadow-lg border-l-4 border-dashed border-stickered overflow-scroll transform transition-transform duration-300 ${
         props.display === 'static' ? 'translate-x-0' : 'translate-x-full'
       }`}
     >
