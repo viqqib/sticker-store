@@ -8,6 +8,7 @@ import AddToCart from './AddToCart'
 
 
 
+
 export default function ProductItem({ product }) {
 
 
@@ -26,7 +27,7 @@ export default function ProductItem({ product }) {
    
     return (
         <div className="card bg-creamst block md:px-2 md:py-2 py-1 px-1 shadow-md ">
-            <Link href={``}>
+            <Link href={`/store/product/${product.id}`}>
                 <div className='hidden md:flex  justify-center items-center image-container bg-stickered' style={{ width: "12rem", height: "12rem" }}>
                     <img src={product.image} alt="" className='py-1 px-1 rounded-sm object-cover h-48 w-full duration-300' />
                 </div>
@@ -35,12 +36,14 @@ export default function ProductItem({ product }) {
                 </div>
             </Link>
             <div className='desc py-1 md:py-2 text-greenst block'>
-                <h1 href="" className="text-greenst font-semibold text-[0.8rem] md:text-base">{truncatedName}</h1>
+                <Link href={`/store/product/${product.id}`}>
+                    <h1 href="" className="text-greenst font-semibold text-[0.8rem] md:text-base">{truncatedName}</h1>
+                </Link>
                 <div className='space-x-1 -mt-1 md:mt-0 md:mb-1'>
-                    <a href={`products/${product.categories}`} className=' py-[0.2rem] md:py-1 px-2 bg-gray-200 text-[0.3rem] md:text-[10px]' >
+                    <a href={`products/${product.categories}`} className=' py-[0.1rem] md:py-1 px-2 bg-gray-200 text-[0.4rem] md:text-[10px]' >
                         {product.categories}
                     </a>
-                    <a href={`products/${product.categories}`} className=' py-[0.2rem] md:py-1 px-2 bg-gray-200 text-[0.3rem] md:text-[10px]' >
+                    <a href={`products/${product.categories}`} className=' py-[0.1rem] md:py-1 px-2 bg-gray-200 text-[0.4rem] md:text-[10px]' >
                         {product.type}
                     </a>
                 </div>
