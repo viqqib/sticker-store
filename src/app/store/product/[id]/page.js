@@ -1,5 +1,7 @@
 'use client'
-import React, {useState} from 'react';
+import { useEffect, useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { hideLoading } from '@/redux/slices/cartSlice'; 
 import { data } from '@/utils/data';
 import StoreHeader from '../../../../components/StoreHeader'
 import Image from 'next/image';
@@ -8,9 +10,18 @@ import AddToCart from '@/components/AddToCart';
 import CartSidebar from '@/components/CartSidebar';
 
 
+
 export default function ProductDetailPage({ params: { id }}) {
     const [openSidebar, setOpenSidebar] = useState(false)
+
+
     
+    const dispatch = useDispatch();
+    useEffect(() => {
+        dispatch(hideLoading()); // use dispatch to hide loading
+    }, [dispatch]);
+
+
     function handleCartClick() {
         setOpenSidebar(prevState => !prevState); // Toggle the sidebar visibility
     }
@@ -30,7 +41,7 @@ export default function ProductDetailPage({ params: { id }}) {
     }
     return (
         <div className='flex pb-32'>
-            <StoreHeader text="Details" backUrl='/store' onClick={handleCartClick} cartMargin={openSidebar ? 'md:mr-40 mr-52 duration-300' : 'mr-0 duration-300'} logoOpacity={openSidebar ? 'md:opacity-100 duration-300 opacity-0' : 'opacity-100 duration-300'} />
+            <StoreHeader text="Details" backUrl='/store' onClick={handleCartClick} cartMargin={openSidebar ? 'md:mr-40 mr-52 duration-300' : 'mr-0 duration-300'} logoOpacity={openSidebar ? '-ml-52 md:opacity-100 duration-500 opacity-0' : 'opacity-100 duration-300'} />
 
 
             <div className='product-card mt-40 w-full flex items-center justify-center'>
