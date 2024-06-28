@@ -77,7 +77,7 @@ export default function ProductDetailPage({ params: { id }}) {
                         </table>
                         </div>
 
-                        <p className='w-[17rem] text-sm md:h-20 mt-4 mb-3'>{product.description}</p>
+                        <p className='w-[17rem] md:w-[20rem] text-sm md:h-20 mt-4'>{product.description}</p>
 
                         <div className='mt-2 mb-5'><ProductRate rate={product.rate} count={product.numReviews}/>
                         
