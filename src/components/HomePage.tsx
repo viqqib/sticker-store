@@ -25,7 +25,7 @@ const Homepage = () => {
             <div>
 
                 <Link  href={"/store"} >
-                <button className='relative  z-10 duration-300 text-stickeryellow py-3 rounded-md px-10 lg:px-0 lg:w-1/4 text-sm lg:text-xl bg-stickered mt-5 font-bold hover:bg-stickeryellow hover:text-stickered'>
+                <button className='relative  z-10 duration-300 text-stickeryellow py-2 md:py-3 rounded-md px-7 md:px-10 lg:px-0 lg:w-1/4 text-sm lg:text-xl bg-stickered mt-5 font-bold hover:bg-stickeryellow hover:text-stickered'>
                         Go To Store
                 </button>
                 </Link>
@@ -37,7 +37,7 @@ const Homepage = () => {
                     className="hover:text-stickered cursor-pointer duration-200"
                     activeClass="text-stickered"
                 >
-                <button className='relative  z-10 duration-300 text-stickeryellow py-3 rounded-md px-10 lg:px-0 lg:w-1/4 text-sm lg:text-xl ml-4 bg-stickered mt-5 font-bold hover:bg-stickeryellow hover:text-stickered'>
+                <button className='relative  z-10 duration-300 text-stickeryellow py-2 md:py-3 rounded-md px-7 md:px-10 lg:px-0 lg:w-1/4 text-sm lg:text-xl ml-4 bg-stickered mt-5 font-bold hover:bg-stickeryellow hover:text-stickered'>
                         Collection & Services
                 </button>
                 </ScrollLink>
