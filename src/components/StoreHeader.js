@@ -22,14 +22,16 @@ export default function StoreHeader(props) {
                     <h1 className="font-serif text-2xl md:text-3xl ml-1">{props.text}</h1>
                 </div>
 
-                <div className={`text-xl flex relative ${props.cartMargin} items-center flex-col cursor-pointer`} onClick={props.onClick}>
-                        <div className="h-4 w-5 md:w-8 border-2 border-stickered text-stickeryellow absolute -right-1  justify-center bg-stickered items-center flex rounded-md md:h-6 -top-1">
-                            <span className="cart-badge  text-stickeryellow  text-[0.6rem] md:text-[1rem] font-extrabold">
-                                {loading ? '' : cartItems.reduce((a,c) => a + c.qty, 0)}
-                            </span>
-                        </div>
-                        <div className={`md:text-[2.5rem] text-xl`}>
-                            <FontAwesomeIcon icon={faShoppingCart} />
+                <div className={`text-xl flex relative ${props.cartMargin} items-center   flex-col cursor-pointer`} onClick={props.onClick}>
+                        <div className={`flex ${props.cartDisplay}`}>
+                            <div className="h-4 w-5 md:w-8 border-2 border-stickered text-stickeryellow absolute -right-1  justify-center bg-stickered items-center flex rounded-md md:h-6 -top-1">
+                                <span className="cart-badge  text-stickeryellow  text-[0.6rem] md:text-[1rem] font-extrabold">
+                                    {loading ? '' : cartItems.reduce((a,c) => a + c.qty, 0)}
+                                </span>
+                            </div>
+                            <div className={`md:text-[2.5rem] text-xl`}>
+                                <FontAwesomeIcon icon={faShoppingCart} />
+                            </div>
                         </div>
                         {/* <Link href='/cart' className="text-[2.5rem]">
                           <FontAwesomeIcon icon={faShoppingCart} />

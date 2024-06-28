@@ -45,16 +45,14 @@ const Navbar = () => {
     
     return (
         <div className="navkoala fixed top-0 left-0 right-0 z-50">
-            <div className={`md:px-20 px-10 py-6 md:py-5 text-greenst bg-creamst w-screen md:flex md:justify-between md:items-center ${open ? 'border-none' : 'border-b-4 border-stickered border-dashed'}`}>
+            <div className={`md:px-24 px-10 py-5 md:py-5 flex justify-between items-center  text-greenst bg-creamst w-screen md:flex md:justify-between md:items-center ${open ? 'border-none' : 'border-b-4 border-stickered border-dashed'}`}>
 
-                <h1 className="flex logokoala items-center gap-1 z-20 font-medium font-serif text-4xl cursor-pointer duration-300"
-                > 
-                    <Image src={logoKoala} alt="Stickoala Logo" width={40} height={40} />
-                    <img src={logoKoala} alt="" />
-                    Stickoala
-                </h1>
+            <div className={`text-2xl font-bold flex justify-center  items-center`}>
+                    <Image src={logoKoala} alt="Stickoala Logo" width={40} height={40} className="md:h-9 md:w-9 w-7 h-7" />
+                    <h1 className="font-serif text-2xl md:text-3xl ml-1">Stickoala</h1>
+                </div>
                 <div 
-                    className="absolute text-2xl right-10 top-7 hover:text-stickered duration-300 md:hidden cursor-pointer"
+                    className="absolute text-xl right-10 top-5 hover:text-stickered duration-300 md:hidden cursor-pointer"
                     onClick={handleOnClickBars}
                 >
                      <FontAwesomeIcon icon={open ? faXmark : faBars } />
@@ -62,7 +60,7 @@ const Navbar = () => {
                
                 <ul
           className={`md:flex md:items-center md:pb-0 pb-5 absolute md:static bg-creamst md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-10 transition-all duration-500 ease-in ${
-            open ? "top-20" : "top-[-250px]"
+            open ? "top-16" : "top-[-250px]"
           } border-b-4 border-stickered border-dashed md:border-none`}
         >
           {links.map((link, index) => (
@@ -90,10 +88,7 @@ const Navbar = () => {
               </Link> */}
             </li>
           ))}
-          <div className="md:ml-7 mt-5 mb-5">
-            <Button text="Order Now" link="order" />
-          </div>
-          
+
         </ul>
 
             </div>

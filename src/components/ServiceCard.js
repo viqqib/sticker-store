@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 export default function ServiceCard({ link, image, alt, title }) {
   return (
     <Link href={link} passHref>
-      <div className="w-[22rem] h-40  flex justify-center items-center relative cursor-pointer">
+      <div className="w-[22rem] h-40  flex md:mb-12 justify-center items-center relative cursor-pointer">
         <div className="bg-stickeryellow h-20 text-greenst  hover:text-creamst md:h-32 rounded-md w-56 md:w-96 flex justify-around hover:bg-stickered duration-300 items-center">
           <span className="md:static hidden"></span>
           <span></span>

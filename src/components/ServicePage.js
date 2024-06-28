@@ -6,16 +6,15 @@ import ServiceCard from '@/components/ServiceCard'
 
 const ServicePage = () => {
     return(
-            <div className="md:h-screen w-full flex" id="service-section">
+            <div className="md:h-screen w-full flex h-screen" id="service-section">
              <div className="container  mt-28 md:mt-40 w-full flex flex-col md:flex-col items-center md:items-center text-center">
 
-             <h1 className="text-xl mt-10 md:text-6xl font-serif text-stickeryellow">Our Services : </h1>
+             <h1 className="text-xl md:mt-10 md:text-6xl font-serif text-stickeryellow">Our Services : </h1>
         
-        <div className="mb-24 flex w-full flex-wrap md:flex-row md:w-full  justify-center md:gap-40 mt-24">
+        <div className="mb-24 flex w-full flex-wrap md:flex-row md:w-full  justify-center md:gap-40 md:mt-20 mt-5">
           {/* Render ProductStickerCard components */}
           
-
-            <ServiceCard
+          <ServiceCard
             link="/services"
             image={documentIcon}
             alt="Description of the image"
@@ -28,6 +27,7 @@ const ServicePage = () => {
             alt="Description of the image"
             title="Print Sticker"
             />
+        
 
 
         </div>

@@ -20,7 +20,7 @@ const musicpin = '/images/StickerCard/pinmusic.png';
 
 const ProductPage = () => {
   return (
-    <div className="md:h-screen w-full flex" id="product-section">
+    <div className="md:h-screen h-screen w-full flex" id="product-section">
       <div className="container  mt-28 md:mt-40 w-full flex flex-col md:flex-col items-center md:items-center text-center">
         <h1 className="text-xl md:text-6xl font-serif text-stickeryellow">We Sell This Kind Of Stickers & Pins:</h1>
         
