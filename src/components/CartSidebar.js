@@ -35,7 +35,7 @@ export default function CartSidebar(props) {
                 ) : (
                     <>
                         <div className="p-2 flex flex-col items-center border-b border-b-gray-600">
-                            <div>Subtotal</div>
+                            <div className="text-greenst text-xl">Total</div>
                             <div className="font-bold text-orange-700">{itemsPrice}</div>
                             <div className="mt-5 mb-5">
                                 <Link href="/store/cart" className="w-full text-center p-2 rounded-xl hover:bg-greenst hover:text-creamst duration-300 border-2 border-greenst text-greenst ">
@@ -45,7 +45,7 @@ export default function CartSidebar(props) {
                         </div>
                         {cartItems.map((item) => (
                             <div key={item.id} className="p-2 flex items-center border-b border-b-gray-600">
-                                <Link href={`/product/${item.id}`} className="flex items-center justify-center mr-1 w-28">
+                                <Link href={`store/product/${item.id}`} className="flex items-center justify-center mr-1 w-28">
                                     <Image src={item.image} alt={item.image} width={100} height={100} className="" />
                                 </Link>
                                <div>
