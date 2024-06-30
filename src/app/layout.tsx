@@ -6,6 +6,7 @@ import '@fontsource/dm-sans/latin.css';
 import '@fontsource/dm-serif-display/latin.css';
 import 'tailwindcss/tailwind.css';
 import '@fontsource/nunito-sans/latin.css'; 
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +28,9 @@ export default function RootLayout({
       <body className="bg-greenst">
         <StoreProvider>
           {children}
+          <Footer />
         </StoreProvider>
+
       </body>
     </html>
   );

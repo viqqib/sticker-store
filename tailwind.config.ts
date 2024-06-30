@@ -22,6 +22,7 @@ const config: Config = {
         redKoala: "#F25E5E",
         stickered: "#E0593D",
         stickeryellow: "#FEC50A",
+        footercolor: '#004222',
       },
       fontFamily: {
         sans: ['DM Sans', 'sans-serif'],
