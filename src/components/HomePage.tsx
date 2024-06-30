@@ -13,6 +13,7 @@ const Homepage = () => {
         <div className='container mt-52 mb-52 w-full flex flex-col lg:flex-row items-center lg:items-center  lg:justify-between'>
 
             <div className='relative px-5 lg:px-0 text-creamst flex flex-col  font-nunito'>
+
                 <span className='lg:text-shadow-custom font-extrabold z-10 text-[2.6rem] lg:text-6xl text-shadow-mobile'>Your Favourite</span>
                 <span className='font-serif md:w-1/2  text-stickeryellow lg:text-shadow-mobile  mt-[-10px]  text-shadow-desc mb-[-7px] md:mt-2 md:mb-3 text-2xl lg:text-4xl z-10 '>Song, Movie, Anime & Idol</span>
                 <span className='text-shadow-mobile lg:text-shadow-custom font-black z-10  text-[2.6rem]  lg:text-6xl'>Stikers & Pins</span>
@@ -46,7 +47,7 @@ const Homepage = () => {
 
 
             <div className='text-creamst lg:flex flex-col text-7xl relative hidden'>
-                <img alt="" src="/images/hero.svg" className='max-w-full' style={{ width: "1000px" }}/>
+                <img alt="" src="/images/store.svg" className='max-w-full w-[90rem]'/>
             </div>
 
         </div>
