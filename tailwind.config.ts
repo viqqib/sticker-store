@@ -50,6 +50,9 @@ const config: Config = {
         '.text-shadow-custom': {
           'text-shadow': '3px 3px 0px rgba(208, 97, 70, 1)',
         },
+        '.text-shadow-mobile': {
+          'text-shadow': '2px 2px 0px rgba(208, 97, 70, 1)',
+        },
       });
     }),
   ],
