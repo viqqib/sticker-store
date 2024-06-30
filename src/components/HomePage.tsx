@@ -26,7 +26,7 @@ const Homepage = () => {
             <div className="">
 
                 <Link  href={"/store"} >
-                <button className=' duration-300 text-stickeryellow py-3 lg:py-3 rounded-md px-5 lg:px-10 lg:px-7 text-xs lg:text-xl bg-stickered mt-5 font-bold hover:bg-stickeryellow hover:text-stickered'>
+                <button className=' duration-300 text-stickeryellow py-3 lg:py-3 rounded-md px-5 lg:px-10 text-xs lg:text-xl bg-stickered mt-5 font-bold hover:bg-stickeryellow hover:text-stickered'>
                         Go To Store
                 </button>
                 </Link>
@@ -38,7 +38,7 @@ const Homepage = () => {
                     className="hover:text-stickered cursor-pointer duration-200"
                     activeClass="text-stickered"
                 >
-                <button className=' duration-300 text-stickeryellow py-3 lg:py- rounded-md  px-5 lg:px-10 lg:px-7  text-xs lg:text-xl ml-4 bg-stickered mt-5 font-bold hover:bg-stickeryellow hover:text-stickered'>
+                <button className=' duration-300 text-stickeryellow py-3 lg:py- rounded-md  px-5 lg:px-10   text-xs lg:text-xl ml-4 bg-stickered mt-5 font-bold hover:bg-stickeryellow hover:text-stickered'>
                         Collection & Services
                 </button>
                 </ScrollLink>
@@ -47,7 +47,7 @@ const Homepage = () => {
 
 
             <div className='text-creamst lg:flex flex-col text-7xl relative hidden'>
-                <img alt="" src="/images/store.svg" className='max-w-full w-[90rem]'/>
+                <img alt="" src="/images/store.svg" className='max-w-full w-[80rem]'/>
             </div>
 
         </div>
