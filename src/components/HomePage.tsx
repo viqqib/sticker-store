@@ -30,7 +30,7 @@ const Homepage = () => {
                         cursor:'',// Adjust the deleting speed (in milliseconds)
                     }}
                 /></span>
-                <span className='text-shadow-mobile lg:text-shadow-custom font-black z-10  text-[2.6rem]  lg:text-6xl'>Stikers & Pins</span>
+                <span className='text-shadow-mobile lg:text-shadow-custom font-black z-10  text-[2.6rem]  lg:text-6xl'>Stickers & Pins</span>
                 {/* <img src={circlecheck} className='absolute z-0 -top-6 -left-10 w-full lg:w-3/4 lg:-left-32 lg:-top-16' alt="" /> */}
                 <p className='relative z-10 lg:w-1/2 w-11/12 font-sans text-sm lg:text-lg mt-2'>
                 Explore vibrant, high-quality stickers and pins featuring your favorite anime characters, movie icons, band logos, song lyrics, and idols. Perfect for personalizing your belongings, expressing your fandom, or gifting. We also offer custom printing for documents and stickers.
