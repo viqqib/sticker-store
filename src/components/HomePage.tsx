@@ -13,11 +13,11 @@ const Homepage = () => {
         <div className='container mt-52 mb-52 w-full flex flex-col lg:flex-row items-center lg:items-center  lg:justify-between'>
 
             <div className='relative px-5 lg:px-0 text-creamst flex flex-col  font-nunito'>
-                <span className='text-shadow-custom font-extrabold z-10 text-4xl lg:text-6xl'>Your Favourite</span>
-                <span className='font-serif md:w-1/2  text-stickeryellow text-shadow-custom my-1  md:mt-2 md:mb-3 text-2xl lg:text-4xl z-10 '>Song, Movie, Anime & Idol</span>
-                <span className='text-shadow-custom font-black z-10 text-4xl lg:text-6xl'>Stikers & Pins</span>
+                <span className='text-shadow-custom font-extrabold z-10 text-[2.6rem] lg:text-6xl'>Your Favourite</span>
+                <span className='font-serif md:w-1/2  text-stickeryellow text-shadow-custom  mt-[-10px]   mb-[-7px] md:mt-2 md:mb-3 text-2xl lg:text-4xl z-10 '>Song, Movie, Anime & Idol</span>
+                <span className='text-shadow-custom font-black z-10  text-[2.6rem]  lg:text-6xl'>Stikers & Pins</span>
                 {/* <img src={circlecheck} className='absolute z-0 -top-6 -left-10 w-full lg:w-3/4 lg:-left-32 lg:-top-16' alt="" /> */}
-                <p className='relative z-10 lg:w-1/2 w-11/12 font-sans text-xs lg:text-lg mt-3'>
+                <p className='relative z-10 lg:w-1/2 w-11/12 font-sans text-xs lg:text-lg mt-2'>
                 Explore vibrant, high-quality stickers and pins featuring your favorite anime characters, movie icons, band logos, song lyrics, and idols. Perfect for personalizing your belongings, expressing your fandom, or gifting. We also offer custom printing for documents and stickers.
                 </p>
 
