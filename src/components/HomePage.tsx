@@ -17,7 +17,7 @@ const Homepage = () => {
 
                 <span className='lg:text-shadow-custom font-extrabold z-10 text-[2.6rem] lg:text-6xl text-shadow-mobile'>Your Favourite</span>
                 {/* <span className='font-serif lg:w-1/2  text-stickeryellow lg:text-shadow-mobile  mt-[-10px]  text-shadow-desc mb-[-7px] lg:mt-2 lg:mb-3 text-2xl lg:text-4xl z-10 '>Song, Movie, Anime & Idol</span> */}
-                <span className='font-serif lg:w-1/2  text-stickeryellow typewriter-container lg:text-shadow-mobile  mt-[-15px]  text-shadow-desc mb-[-10px] lg:-mt-2 lg:mb-0 text-7xl lg:text-9xl z-10 '>
+                <span className='font-serif lg:w-1/2  text-stickeryellow typewriter-container lg:text-shadow-mobile  mt-[-15px]  text-shadow-mobile mb-[-10px] lg:-mt-2 lg:mb-0 text-7xl lg:text-9xl z-10 '>
                 <Typewriter
                     options={{
                         strings: ['Anime', 'Music', 'Movie', 'Idol', 'Waifu', 'Husbu'],
