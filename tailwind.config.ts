@@ -53,6 +53,9 @@ const config: Config = {
         '.text-shadow-mobile': {
           'text-shadow': '2px 2px 0px rgba(208, 97, 70, 1)',
         },
+        '.text-shadow-desc': {
+          'text-shadow': '1px 1px 0px rgba(208, 97, 70, 1)',
+        },
       });
     }),
   ],
