@@ -52,7 +52,7 @@ const Navbar = () => {
                     <h1 className="font-serif text-2xl md:text-3xl ml-1">Stickoala</h1>
                 </div>
                 <div 
-                    className="absolute text-xl right-10 top-[5.5] hover:text-stickered duration-300 md:hidden cursor-pointer"
+                    className="absolute text-xl right-10 top-5 hover:text-stickered duration-300 md:hidden cursor-pointer"
                     onClick={handleOnClickBars}
                 >
                      <FontAwesomeIcon icon={open ? faXmark : faBars } />
