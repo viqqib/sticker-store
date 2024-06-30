@@ -15,7 +15,7 @@ const Homepage = () => {
             <div className='relative px-5 lg:px-0 text-creamst flex flex-col  font-nunito'>
 
                 <span className='lg:text-shadow-custom font-extrabold z-10 text-[2.6rem] lg:text-6xl text-shadow-mobile'>Your Favourite</span>
-                <span className='font-serif md:w-1/2  text-stickeryellow lg:text-shadow-mobile  mt-[-10px]  text-shadow-desc mb-[-7px] md:mt-2 md:mb-3 text-2xl lg:text-4xl z-10 '>Song, Movie, Anime & Idol</span>
+                <span className='font-serif lg:w-1/2  text-stickeryellow lg:text-shadow-mobile  mt-[-10px]  text-shadow-desc mb-[-7px] lg:mt-2 lg:mb-3 text-2xl lg:text-4xl z-10 '>Song, Movie, Anime & Idol</span>
                 <span className='text-shadow-mobile lg:text-shadow-custom font-black z-10  text-[2.6rem]  lg:text-6xl'>Stikers & Pins</span>
                 {/* <img src={circlecheck} className='absolute z-0 -top-6 -left-10 w-full lg:w-3/4 lg:-left-32 lg:-top-16' alt="" /> */}
                 <p className='relative z-10 lg:w-1/2 w-11/12 font-sans text-xs lg:text-lg mt-2'>
@@ -26,7 +26,7 @@ const Homepage = () => {
             <div className="">
 
                 <Link  href={"/store"} >
-                <button className=' duration-300 text-stickeryellow py-3 md:py-3 rounded-md px-5 md:px-10 lg:px-7 text-xs lg:text-xl bg-stickered mt-5 font-bold hover:bg-stickeryellow hover:text-stickered'>
+                <button className=' duration-300 text-stickeryellow py-3 lg:py-3 rounded-md px-5 lg:px-10 lg:px-7 text-xs lg:text-xl bg-stickered mt-5 font-bold hover:bg-stickeryellow hover:text-stickered'>
                         Go To Store
                 </button>
                 </Link>
@@ -38,7 +38,7 @@ const Homepage = () => {
                     className="hover:text-stickered cursor-pointer duration-200"
                     activeClass="text-stickered"
                 >
-                <button className=' duration-300 text-stickeryellow py-3 md:py- rounded-md  px-5 md:px-10 lg:px-7  text-xs lg:text-xl ml-4 bg-stickered mt-5 font-bold hover:bg-stickeryellow hover:text-stickered'>
+                <button className=' duration-300 text-stickeryellow py-3 lg:py- rounded-md  px-5 lg:px-10 lg:px-7  text-xs lg:text-xl ml-4 bg-stickered mt-5 font-bold hover:bg-stickeryellow hover:text-stickered'>
                         Collection & Services
                 </button>
                 </ScrollLink>
