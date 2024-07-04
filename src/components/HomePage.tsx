@@ -20,7 +20,7 @@ const Homepage = () => {
                 <span className='font-serif lg:w-1/2  text-stickeryellow typewriter-container lg:text-shadow-mobile  mt-[-15px]  text-shadow-mobile mb-[-10px] lg:-mt-2 lg:mb-0 text-7xl lg:text-9xl z-10 '>
                 <Typewriter
                     options={{
-                        strings: ['Anime', 'Music', 'Movie', 'Idol', 'Waifu', 'Husbu'],
+                        strings: ['Anime', 'Music', 'Movie', 'Band', 'Idol', 'Waifu', 'Husbu'],
                         autoStart: true,
                         loop: true,
                         delay:70,

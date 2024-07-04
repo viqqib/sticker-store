@@ -29,10 +29,10 @@ export default function ProductItem({ product }) {
         <div className="card bg-creamst block md:px-2 md:py-2 py-1 px-1 shadow-md ">
             <Link href={`/store/product/${product.id}`}>
                 <div className='hidden md:flex  justify-center items-center image-container bg-stickered' style={{ width: "12rem", height: "12rem" }}>
-                    <img src={product.image} alt="" className='py-1 px-1 rounded-sm object-cover h-48 w-full duration-300' />
+                    <img src={product.thumbnail} alt="" className='py-1 px-1 rounded-sm object-cover h-48 w-full duration-300'  loading="lazy"/>
                 </div>
                 <div className='md:hidden image-container bg-stickered' style={{ width: "10rem", height: "10rem" }}>
-                    <img src={product.image} alt="" className='rounded-sm object-cover w-full' />
+                    <img src={product.thumbnail} alt="" className='rounded-sm object-cover w-full' loading="lazy" />
                 </div>
             </Link>
             <div className='desc py-1 md:py-2 text-greenst block'>
