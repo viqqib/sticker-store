@@ -41,7 +41,7 @@ export default function ProductDetailPage({ params: { id }}) {
     }
     return (
         <div className='flex pb-20 md:h-screen'>
-            <StoreHeader text="Details" backUrl='/store' onClick={handleCartClick} cartMargin={openSidebar ? 'md:mr-40 mr-52 duration-300' : 'mr-0 duration-300'} logoOpacity={openSidebar ? '-ml-52 md:opacity-100 duration-500 opacity-0' : 'opacity-100 duration-300'} />
+            <StoreHeader  cartIcon={openSidebar ? 'faXmark' : 'faShoppingCart'} badgeDisplay={openSidebar ? 'hidden' : 'flex'} text="Details" backUrl='/store' onClick={handleCartClick} cartMargin={openSidebar ? 'md:mr-40 mr-52 duration-300' : 'mr-0 duration-300'} logoOpacity={openSidebar ? '-ml-52 md:opacity-100 duration-500 opacity-0' : 'opacity-100 duration-300'} />
 
 
             <div className='product-card mt-32 md:mt-52 w-full flex items-center justify-center duration-300'>
