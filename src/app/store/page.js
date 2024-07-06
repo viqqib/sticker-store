@@ -1,4 +1,5 @@
-'use client'
+'use client';
+
 import { data } from '@/utils/data';
 import ProductItem from '@/components/ProductItem';
 import { useEffect, useState } from 'react';
@@ -10,18 +11,18 @@ import { faShoppingCart, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 const Store = () => {
     const { products } = data;
-    const dispatch = useDispatch(); // get the dispatch function
+    const dispatch = useDispatch();
     const [openSidebar, setOpenSidebar] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState('All');
     const [searchQuery, setSearchQuery] = useState('');
     const [filteredProducts, setFilteredProducts] = useState(products);
 
     function handleCartClick() {
-        setOpenSidebar(prevState => !prevState); // Toggle the sidebar visibility
+        setOpenSidebar(prevState => !prevState);
     }
 
     useEffect(() => {
-        dispatch(hideLoading()); // use dispatch to hide loading
+        dispatch(hideLoading());
     }, [dispatch]);
 
     useEffect(() => {
@@ -35,7 +36,7 @@ const Store = () => {
         setFilteredProducts(filtered);
     }, [selectedCategory, searchQuery, products]);
 
-    const categories = ['All', ...new Set(products.map(product => product.categories))];
+    const categories = ['All', ...new Set(products.map(product => product.categories).flat())];
 
     return (
         <div>
@@ -52,7 +53,7 @@ const Store = () => {
             <div className={`flex flex-col transition-margin h-full duration-300 ${openSidebar ? '' : 'mr-0'}`}>
                 <div className={`flex mt-24 md:mt-32 gap-5 md:gap-5 flex-wrap pb-10 justify-center px-2 ${openSidebar ? 'md:px-20' : 'md:px-20'}`}>
                     
-                <div className='w-[357px] md:w-[1350px] bg-stickered px-5 py-2 filter flex justify-between items-center'>
+                    <div className='w-[357px] md:w-[1350px] bg-stickered px-5 py-2 filter flex justify-between items-center'>
                         <div className='mr-4'>
                             <label htmlFor="category" className="text-xs mr-2 text-creamst">Category :</label>
                             <select 
@@ -80,7 +81,6 @@ const Store = () => {
                             />
                         </div>
                     </div>
-
 
                     {filteredProducts.map(product => (
                         <ProductItem key={product.id} product={product}/>

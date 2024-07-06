@@ -31,7 +31,7 @@ export default function ProductItem({ product }) {
                 <div className='hidden md:flex  justify-center items-center image-container bg-stickered' style={{ width: "12rem", height: "12rem" }}>
                     <img src={product.thumbnail} alt="" className='py-1 px-1 rounded-sm object-cover h-48 w-full duration-300'  loading="lazy"/>
                 </div>
-                <div className='md:hidden image-container bg-stickered' style={{ width: "10rem", height: "10rem" }}>
+                <div className='md:hidden image-container bg-stickered px-1 py-1'  style={{ width: "10rem", height: "10rem" }}>
                     <img src={product.thumbnail} alt="" className='rounded-sm object-cover w-full' loading="lazy" />
                 </div>
             </Link>
@@ -47,7 +47,7 @@ export default function ProductItem({ product }) {
                         {product.type}
                     </a>
                 </div>
-                <h1 className='md:text-3xl text-xl font mb-1 font-extrabold'>
+                <h1 className='md:text-3xl text-stickered text-xl font mb-1 font-extrabold'>
                     {formatRupiah(product.price)}
                 </h1>
                 <div className='-mt-1 md:my-1'>

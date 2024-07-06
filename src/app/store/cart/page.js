@@ -87,7 +87,7 @@ export default function CartPage() {
                                                 <div className='h-[104px] mb-3 flex border-r-2 border-b-2 border-t-2 border-dashed border-stickered'>
                                                 <Link href={`product/${item.id}`} className=''>
                                                     <div className='w-[90px] h-[100px] bg-stickered flex justify-center items-center'>
-                                                        <Image src={item.image} alt={item.name} width={80} height={80} />
+                                                        <Image src={item.thumbnail} alt={item.name} width={80} height={80} />
                                                     </div>
                                                 </Link>
                                                     <div className=''>

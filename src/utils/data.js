@@ -63,7 +63,7 @@ export const data = {
             thumbnail: 'https://i.imgur.com/hgk79nt.png',
             price: 2900,
             size: 'L',
-            categories: 'Meme',
+            categories: ['Cat','Meme'],
             type: 'Sticker',
             countInStock: 1,
             rate: 5,
@@ -231,7 +231,7 @@ export const data = {
             thumbnail: 'https://i.imgur.com/rnMH5dI.png',
             price: 2900,
             size: 'L',
-            categories: 'Anime',
+            categories: ['Anime', 'Movie', 'Ghibli'],
             type: 'Sticker',
             countInStock: 1,
             rate: 5,
@@ -245,7 +245,7 @@ export const data = {
             thumbnail: 'https://i.imgur.com/OqfpQ5j.png',
             price: 2900,
             size: 'L',
-            categories: 'Anime',
+            categories: ['Anime', 'Movie', 'Ghibli'],
             type: 'Sticker',
             countInStock: 1,
             rate: 5,
@@ -301,7 +301,7 @@ export const data = {
             thumbnail: 'https://i.imgur.com/fhWp1M3.png',
             price: 2900,
             size: 'L',
-            categories: 'Anime',
+            categories: ['Anime','Meme'],
             type: 'Sticker',
             countInStock: 1,
             rate: 5,
@@ -315,7 +315,7 @@ export const data = {
             thumbnail: 'https://i.imgur.com/W5POnNJ.png',
             price: 2900,
             size: 'L',
-            categories: 'Anime',
+            categories: ['Anime', 'Movie', 'Ghibli'],
             type: 'Sticker',
             countInStock: 1,
             rate: 5,
@@ -329,7 +329,7 @@ export const data = {
             thumbnail: 'https://i.imgur.com/pNkHHrb.png',
             price: 2900,
             size: 'L',
-            categories: 'Anime',
+            categories: ['Anime', 'Movie', 'Ghibli'],
             type: 'Sticker',
             countInStock: 1,
             rate: 5,
@@ -343,7 +343,7 @@ export const data = {
             thumbnail: 'https://i.imgur.com/reJK6OS.png',
             price: 2900,
             size: 'L',
-            categories: 'Anime',
+            categories: ['Cute & Girl','Anime'],
             type: 'Sticker',
             countInStock: 1,
             rate: 5,
@@ -455,7 +455,7 @@ export const data = {
             thumbnail: 'https://i.imgur.com/719kxcq.png',
             price: 2900,
             size: 'L',
-            categories: 'Anime',
+            categories: ['Anime', 'Movie', 'Ghibli'],
             type: 'Sticker',
             countInStock: 1,
             rate: 5,
@@ -469,7 +469,7 @@ export const data = {
             thumbnail: 'https://i.imgur.com/IR1HOOP.png ',
             price: 2900,
             size: 'L',
-            categories: 'Anime',
+            categories: ['Anime', 'Movie', 'Ghibli'],
             type: 'Sticker',
             countInStock: 1,
             rate: 5,
@@ -511,13 +511,732 @@ export const data = {
             thumbnail: 'https://i.imgur.com/lPmhGPB.png',
             price: 2900,
             size: 'L',
-            categories: 'Anime',
+            categories: ['Anime', 'Movie', 'Ghibli'],
             type: 'Sticker',
             countInStock: 1,
             rate: 5,
             numReviews: 10,
             description: 'Honor the brilliant mind behind The Wind Rises with this Jiro Horikoshi sticker. A great addition for fans of Studio Ghibli\'s poignant film.'
-        }
+        },
+        {
+            id: '39',
+            name: 'Spongebob Yellow Silly Fish Meme Sticker',
+            image: 'https://i.imgur.com/kpgOv2E.png',
+            thumbnail: 'https://i.imgur.com/MfVCfiJ.png',
+            price: 2900,
+            size: 'L',
+            categories: 'Meme',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Get a laugh with the iconic silly fish meme from Spongebob. Perfect for adding a touch of humor to any surface.'
+        },
+        {
+            id: '40',
+            name: 'Spongebob Awkward Smile Meme Sticker',
+            image: 'https://i.imgur.com/RJhpgSV.png',
+            thumbnail: 'https://i.imgur.com/cgE7J1m.png',
+            price: 2900,
+            size: 'L',
+            categories: 'Meme',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Showcase the classic awkward smile from Spongebob with this funny sticker. Great for fans of the iconic show.'
+        },
+        {
+            id: '41',
+            name: 'Tom & Jerry Tom Lu Itu Ga Diajak Meme Sticker',
+            image: 'https://i.imgur.com/s2d4T7k.png',
+            thumbnail: 'https://i.imgur.com/hppkvAl.png',
+            price: 2900,
+            size: 'L',
+            categories: 'Meme',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Add some humor with the Tom meme "Lu Itu Ga Diajak". A must-have for fans of this classic cat.'
+        },
+        {
+            id: '42',
+            name: 'Ghost Smug Cat Meme Sticker',
+            image: 'https://i.imgur.com/nzCuO6K.png',
+            thumbnail: 'https://i.imgur.com/t9VYtoI.png',
+            price: 2900,
+            size: 'L',
+            categories: 'Meme',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Celebrate the hilarious Ghost Smug Cat meme with this stylish sticker. Perfect for adding a bit of internet culture to your collection.'
+        },
+        {
+            id: '43',
+            name: 'Doge Bonk Meme Sticker',
+            image: 'https://i.imgur.com/hKu5Dzm.png',
+            thumbnail: 'https://i.imgur.com/pDEkn7X.png',
+            price: 2900,
+            size: 'L',
+            categories: 'Meme',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Capture the fun of the Doge Bonk meme with this entertaining sticker. A great addition for fans of the famous Doge meme.'
+        },
+        {
+            id: '44',
+            name: 'Pop Cat Meme Sticker',
+            image: 'https://i.imgur.com/gnzNebh.png',
+            thumbnail: 'https://i.imgur.com/616idiQ.png',
+            price: 2900,
+            size: 'L',
+            categories: 'Meme',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Bring the popular Pop Cat meme to life with this unique sticker. Perfect for fans of internet culture.'
+        },
+        {
+            id: '45',
+            name: 'Pop Cat (Mouth Open) Meme Sticker',
+            image: 'https://i.imgur.com/eaGVrFi.png',
+            thumbnail: 'https://i.imgur.com/noUEXz0.png',
+            price: 2900,
+            size: 'L',
+            categories: 'Meme',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Showcase the hilarious Pop Cat with mouth open meme with this sticker. A must-have for meme enthusiasts.'
+        },
+        {
+            id: '46',
+            name: "I'm Fine Cat Meme Sticker",
+            image: 'https://i.imgur.com/Vk1ks3E.png',
+            thumbnail: 'https://i.imgur.com/YnR5h59.png',
+            price: 2900,
+            size: 'L',
+            categories: 'Meme',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Express the iconic "I’m Fine" cat meme with this sticker. Great for fans of relatable internet humor.'
+        },
+        {
+            id: '47',
+            name: 'Jake ENHYPEN Smile Sticker',
+            image: 'https://i.imgur.com/nHCdgCH.png',
+            thumbnail: 'https://i.imgur.com/ZNHB8uo.png',
+            price: 2900,
+            size: 'L',
+            categories: 'K-pop',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Capture the charming smile of Jake from ENHYPEN with this delightful sticker. Perfect for fans of the popular K-pop group.'
+        },
+        {
+            id: '48',
+            name: 'Mark NCT Postage Sticker',
+            image: 'https://i.imgur.com/kDUyLLs.png',
+            thumbnail: 'https://i.imgur.com/1WBPQzz.png',
+            price: 2900,
+            size: 'L',
+            categories: 'K-pop',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Showcase your love for Mark from NCT with this postage-style sticker. A great addition for NCTzens.'
+        },
+        {
+            id: '49',
+            name: 'Haerin NewJeans Powerpuff Sticker',
+            image: 'https://i.imgur.com/hZCXR6B.png',
+            thumbnail: 'https://i.imgur.com/RkG0aqX.png',
+            price: 2900,
+            size: 'L',
+            categories: 'K-pop',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Celebrate Haerin from NewJeans with this adorable Powerpuff-inspired sticker. Perfect for fans of the rising K-pop group.'
+        },
+        {
+            id: '50',
+            name: 'Hanni NewJeans Bubble Gum Sticker',
+            image: 'https://i.imgur.com/2UdbYTa.png',
+            thumbnail: 'https://i.imgur.com/ZurLKdR.png',
+            price: 2900,
+            size: 'L',
+            categories: 'K-pop',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Get a fun and bubbly Hanni from NewJeans with this cute bubble gum sticker. Ideal for any NewJeans fan.'
+        },
+        {
+            id: '51',
+            name: 'Haerin NewJeans McDonald Meme Sticker',
+            image: 'https://i.imgur.com/UWD29U3.png',
+            thumbnail: 'https://i.imgur.com/x6LrSQw.png',
+            price: 2900,
+            size: 'L',
+            categories: ['Meme', 'K-pop'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Laugh along with Haerin from NewJeans in this funny McDonald meme sticker. A must-have for fans who love a good meme.'
+        },
+        {
+            id: '52',
+            name: 'Mingyu Seventeen Dog Badge Sticker',
+            image: 'https://i.imgur.com/QgOt69y.png',
+            thumbnail: 'https://i.imgur.com/AvryXGC.png',
+            price: 2900,
+            size: 'L',
+            categories: 'K-pop',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Honor Mingyu from Seventeen with this dog badge-inspired sticker. A great addition for Carats.'
+        },
+        {
+            id: '53',
+            name: 'NewJeans Logo Sticker',
+            image: 'https://i.imgur.com/pbMCJ2U.png',
+            thumbnail: 'https://i.imgur.com/JB97bxz.png',
+            price: 2900,
+            size: 'L',
+            categories: 'K-pop',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Show your support for NewJeans with this stylish logo sticker. Perfect for fans of the trending K-pop group.'
+        },
+        {
+            id: '54',
+            name: 'Hu Tao Chibi Genshin Sticker',
+            image: 'https://i.imgur.com/ahKwb0V.png',
+            thumbnail: 'https://i.imgur.com/bfKGTAd.png',
+            price: 2900,
+            size: 'L',
+            categories: 'Game',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Celebrate the enigmatic Hu Tao from Genshin Impact with this vibrant sticker. A must-have for any Genshin fan.'
+        },
+        {
+            id: '55',
+            name: 'Raiden Shogun Chibi Genshin Sticker',
+            image: 'https://i.imgur.com/CciW8UG.png',
+            thumbnail: 'https://i.imgur.com/Z4djTnd.png',
+            price: 2900,
+            size: 'L',
+            categories: 'Game',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Honor the mighty Raiden Shogun from Genshin Impact with this powerful sticker. Perfect for fans of the Electro Archon.'
+        },
+        {
+            id: '56',
+            name: 'Kazuha Genshin Chibi Sticker',
+            image: 'https://i.imgur.com/eTU4vsd.png',
+            thumbnail: 'https://i.imgur.com/QORvB4i.png',
+            price: 2900,
+            size: 'L',
+            categories: 'Game',
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Capture the elegance of Kazuha from Genshin Impact with this beautiful sticker. An excellent addition for any Genshin fan.'
+        },
+        {
+            id: '57',
+            name: 'Paimon Clown Genshin Sticker',
+            image: 'https://i.imgur.com/FE8RaWZ.png',
+            thumbnail: 'https://i.imgur.com/ePJxLqY.png',
+            price: 2900,
+            size: 'L',
+            categories: ['Meme', 'Game'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Laugh along with the hilarious Paimon Clown meme from Genshin Impact. Perfect for fans who love a good joke.'
+        },
+        {
+            id: '58',
+            name: 'NCT KICK IT Sticker',
+            image: 'https://i.imgur.com/2MnX8cv.png',
+            thumbnail: 'https://i.imgur.com/2MnX8cv.png',
+            price: 2900,
+            size: 'L',
+            categories: ['K-pop', 'Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'NCT Kick It.'
+        },
+        {
+            id: '59',
+            name: 'Saturn by SZA Lyrics Sticker',
+            image: 'https://i.imgur.com/oEtKGc3.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/u93ALla.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Decorate with the lyrics from "Saturn" by SZA.'
+        },
+        {
+            id: '60',
+            name: 'Taylor Swift Heart Sticker',
+            image: 'https://i.imgur.com/QcDjpqi.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/jncUbXv.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Show your love for Taylor Swift with this heart sticker.'
+        },
+        {
+            id: '61',
+            name: 'I Love Spotify Sticker',
+            image: 'https://i.imgur.com/CpQ9jo9.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/4nBlUOj.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Declare your love for Spotify with this sticker.'
+        },
+        {
+            id: '62',
+            name: 'Clairo Logo Sticker',
+            image: 'https://i.imgur.com/FD8oBT8.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/hfbyZ41.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Display the logo of Clairo with this sticker.'
+        },
+        {
+            id: '63',
+            name: 'Mitski Logo Sticker',
+            image: 'https://i.imgur.com/WoxLDxG.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/3xDODbp.png',
+            price: 2900,
+            size: 'L',
+            categories: ['Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Show your admiration for Mitski with this logo sticker.'
+        },
+        {
+            id: '64',
+            name: 'Deja Vu by Olivia Rodrigo Lyric Sticker',
+            image: 'https://i.imgur.com/p2FwGxk.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/xyFaIll.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Capture the essence of "Deja Vu" by Olivia Rodrigo with this lyric sticker.'
+        },
+        {
+            id: '65',
+            name: '1989 Taylor Swift Album Sticker',
+            image: 'https://i.imgur.com/c4AIn3O.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/Uu7BIk8.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Celebrate Taylor Swift\'s "1989" album with this sticker.'
+        },
+        {
+            id: '66',
+            name: 'Oasis Logo Sticker',
+            image: 'https://i.imgur.com/jz7ZcCF.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/M9jR6ni.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Display the iconic Oasis logo with this sticker.'
+        },
+        {
+            id: '67',
+            name: 'Cigarettes After Sex Logo Sticker',
+            image: 'https://i.imgur.com/zAtqPCo.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/qVYxZoG.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Show your love for Cigarettes After Sex with this logo sticker.'
+        },
+        {
+            id: '68',
+            name: 'Radiohead Logo Sticker',
+            image: 'https://i.imgur.com/0Z5USHg.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/d92vt9b.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Display the classic Radiohead logo with this sticker.'
+        },
+        {
+            id: '69',
+            name: 'Do I Wanna Know by Arctic Monkeys Lyric Sticker',
+            image: 'https://i.imgur.com/4XmSzFd.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/hBCAert.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Capture the mood of "Do I Wanna Know" by Arctic Monkeys with this lyric sticker.'
+        },
+        {
+            id: '70',
+            name: 'Lovers Rock TV Girl Sticker',
+            image: 'https://i.imgur.com/DK65ipX.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/4fFRsUx.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Embrace the vibes of Lovers Rock by TV Girl with this sticker.'
+        },
+        {
+            id: '71',
+            name: 'Nobody Get Me by SZA Lyric Sticker',
+            image: 'https://i.imgur.com/B4QZAnR.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/lMg8AIh.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Express yourself with "Nobody Get Me" by SZA with this lyric sticker.'
+        },
+        {
+            id: '72',
+            name: 'Clairo Sofia Card Sticker',
+            image: 'https://i.imgur.com/SWkHyCw.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/QhFyOF1.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Highlight Clairo\'s "Sofia" with this sticker.'
+        },
+        {
+            id: '73',
+            name: 'Pretty When I Cry Lana Del Rey Sticker',
+            image: 'https://i.imgur.com/olFtAXc.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/6YIguGs.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Capture the emotions of "Pretty When I Cry" by Lana Del Rey with this sticker.'
+        },
+        {
+            id: '74',
+            name: 'The 1975 Logo Sticker',
+            image: 'https://i.imgur.com/8u8cTaN.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/cTPXsPg.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Music'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Show your love for The 1975 with this logo sticker.'
+        },
+        {
+            id: '75',
+            name: 'OMG Bubble Text Sticker',
+            image: 'https://i.imgur.com/xFXJeBd.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/x8d2NXj.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Quote & Text'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Express your surprise with the "OMG" text sticker.'
+        },
+        {
+            id: '76',
+            name: 'Loser Yellow Text Sticker',
+            image: 'https://i.imgur.com/5kUEU26.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/Qzi5HtH.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Quote & Text'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Playfully tease with the "Loser" yellow text sticker.'
+        },
+        {
+            id: '77',
+            name: 'Nah I’d Win Gojo Satoru Quotes Sticker',
+            image: 'https://i.imgur.com/4DObddb.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/du6d85L.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Anime','Quote & Text'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Channel confidence with "Nah I’d Win" Gojo Satoru quote sticker.'
+        },
+        {
+            id: '78',
+            name: 'Do What You Love Sticker',
+            image: 'https://i.imgur.com/pGE7uI8.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/NyEoDMk.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Quote & Text'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Inspire with the "Do What You Love" sticker.'
+        },
+        {
+            id: '79',
+            name: 'Kuromi Sanrio Sticker',
+            image: 'https://i.imgur.com/oyG9Mjg.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/N5WCfcM.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Cute & Girl'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Adorable Kuromi Sanrio sticker for fans of cute characters.'
+        },
+        {
+            id: '80',
+            name: 'My Melody Sanrio Sticker',
+            image: 'https://i.imgur.com/exY7GHc.png ', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/lTDLgDR.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Cute & Girl'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Sweet My Melody Sanrio sticker for those who love adorable characters.'
+        },
+        {
+            id: '81',
+            name: 'Kuromi Heart Sticker',
+            image: 'https://i.imgur.com/0boJpHx.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/WAW39Yo.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Cute & Girl'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Show your love with the Kuromi Heart sticker.'
+        },
+        {
+            id: '82',
+            name: 'Girl with Headphones Sticker',
+            image: 'https://i.imgur.com/90vdyb5.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/fsJBeZs.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Cute & Girl'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Capture the vibe with the Girl with Headphones sticker.'
+        },
+        {
+            id: '83',
+            name: '8bit Girl NewJeans Sticker',
+            image: 'https://i.imgur.com/n4BmnUf.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/B2vK17t.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Cute & Girl', 'K-pop'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Nostalgic 8bit Girl in New Jeans sticker.'
+        },
+        {
+            id: '84',
+            name: 'Cat Licking Sticker',
+            image: 'https://i.imgur.com/wDmucAg.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/figrJPv.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Cat'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Adorable Cat Licking sticker for cat lovers.'
+        },
+        {
+            id: '85',
+            name: 'Cat in Box Sticker',
+            image: 'https://i.imgur.com/pLygIKO.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/hSGOgpN.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Cat'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Cute Cat in Box sticker for all cat enthusiasts.'
+        },
+        {
+            id: '86',
+            name: 'Stargirl Sticker',
+            image: 'https://i.imgur.com/rUhKkA5.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/buTEruR.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Cute & Girl', 'Quote & Text'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Shine bright with the Stargirl sticker.'
+        },
+        {
+            id: '87',
+            name: 'Not Today Lazy Cat Sticker',
+            image: 'https://i.imgur.com/iMshxa4.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/qHidybW.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Cat', 'Quote & Text'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Cute Cat in Lazy sticker for all cat enthusiasts.'
+        },
+        {
+            id: '88',
+            name: 'Am I Ok?? Cat Cat Sticker',
+            image: 'https://i.imgur.com/f8hOtlq.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/45kxJ9H.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['Cat', 'Quote & Text'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Cute Cat in Lazy sticker for all cat enthusiasts.'
+        },
+        {
+            id: '89',
+            name: 'Minji NewJeans Powerpuff Sticker',
+            image: 'https://i.imgur.com/hxHCAlJ.png', // Insert image URL if available
+            thumbnail: 'https://i.imgur.com/uIazpUh.png', // Insert thumbnail URL if available
+            price: 2900,
+            size: 'L',
+            categories: ['K-pop', 'Cute & Girl'],
+            type: 'Sticker',
+            countInStock: 1,
+            rate: 5,
+            numReviews: 10,
+            description: 'Cute Cat in Lazy sticker for all cat enthusiasts.'
+        },
+
+
+       
+
+        
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
     ]
 }
