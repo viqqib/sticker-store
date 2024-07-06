@@ -50,7 +50,7 @@ const Store = () => {
                 logoOpacity={openSidebar ? 'md:opacity-100 -mr-10 duration-300 opacity-0' : 'opacity-100 duration-300'}
             />
 
-            <div className={`flex flex-col transition-margin h-full duration-300 ${openSidebar ? '' : 'mr-0'}`}>
+            <div className={`flex flex-col transition-margin min-h-screen pb-20 h-full duration-300 ${openSidebar ? '' : 'mr-0'}`}>
                 <div className={`flex mt-24 md:mt-32 gap-5 md:gap-5 flex-wrap pb-10 justify-center px-2 ${openSidebar ? 'md:px-20' : 'md:px-20'}`}>
                     
                     <div className='w-[357px] md:w-[1350px] bg-stickered px-5 py-2 filter flex justify-between items-center'>

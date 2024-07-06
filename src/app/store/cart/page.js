@@ -53,10 +53,10 @@ export default function CartPage() {
     };
 
     return (
-        <div className='flex h-full mb-36'>
+        <div className='flex min-h-screen '>
             <StoreHeader text="Cart" backUrl='/store' cartDisplay='opacity-0 cursor-default' />
 
-            <div className='mt-24 md:mt-32 w-full px-5'>
+            <div className='mt-24 md:mt-32 w-full px-5 mb-24'>
                 <div className='bg-stickeryellow px-4 py-2'>
                     <h1 className='text-4xl font-serif font-bold mb-1 text-greenst'>Your Cart</h1>
                     {isLoading ? (
