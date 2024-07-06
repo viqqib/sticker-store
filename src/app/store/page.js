@@ -60,7 +60,7 @@ const Store = () => {
                                 id="category" 
                                 value={selectedCategory} 
                                 onChange={(e) => setSelectedCategory(e.target.value)}
-                                className="px-3 py-2 rounded-md text-greenst bg-stick border border-stickeryellow text-xs focus:outline-none focus:border-blue-500"
+                                className="px-2 w-20 py-2  rounded-md text-greenst bg-stick border border-stickeryellow text-xs focus:outline-none focus:border-blue-500"
                             >
                                 {categories.map((category, index) => (
                                     <option key={index} value={category}>{category}</option>

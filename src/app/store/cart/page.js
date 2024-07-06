@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Link from 'next/link';
 import Image from 'next/image';
-import { addToCart, removeFromCart } from '../../../redux/slices/cartSlice';
+import { addToCart, removeFromCart, hideLoading } from '../../../redux/slices/cartSlice';
 import StoreHeader from '@/components/StoreHeader';
 
 export default function CartPage() {
@@ -15,8 +15,10 @@ export default function CartPage() {
     useEffect(() => {
         if (!loading) {
             setIsLoading(false);
+        } else {
+            dispatch(hideLoading());
         }
-    }, [loading]);
+    }, [loading, dispatch]);
 
     const removeFromCartHandler = (id) => {
         dispatch(removeFromCart(id));
@@ -43,6 +45,11 @@ export default function CartPage() {
             minimumFractionDigits: 0,
             maximumFractionDigits: 0
         }).format(amount);
+    };
+
+    // Truncate item name
+    const truncateName = (name) => {
+        return name.length > 27 ? `${name.substring(0, 27)}...` : name;
     };
 
     return (
@@ -83,44 +90,41 @@ export default function CartPage() {
                                 {cartItems.map((item) => (
                                     <ul key={item.id}>
                                         <li>
-                                           
-                                                <div className='h-[104px] mb-3 flex border-r-2 border-b-2 border-t-2 border-dashed border-stickered'>
+                                            <div className='h-[104px] mb-3 flex border-r-2 border-b-2 border-t-2 border-dashed border-stickered'>
                                                 <Link href={`product/${item.id}`} className=''>
                                                     <div className='w-[90px] h-[100px] bg-stickered flex justify-center items-center'>
                                                         <Image src={item.thumbnail} alt={item.name} width={80} height={80} />
                                                     </div>
                                                 </Link>
-                                                    <div className=''>
-                                                        <div className='ml-2 mt-[2px] block'>
-                                                            <h1 className='font-medium text-greenst text-sm'>{item.name}</h1>
-                                                            <span className='text-stickered font-extrabold text-3xl'>{formatToIDR(item.price)}</span>
-                                                            
-                                                        </div>
-                                                        <div className='ml-2 mt-2'>
-                                                            <select name="" 
+                                                <div className=''>
+                                                    <div className='ml-2 mt-[2px] block'>
+                                                        <h1 className='font-medium text-greenst text-sm'>{truncateName(item.name)}</h1>
+                                                        <span className='text-stickered font-extrabold text-3xl'>{formatToIDR(item.price)}</span>
+                                                    </div>
+                                                    <div className='ml-2 mt-2'>
+                                                        <select
+                                                            name=""
                                                             className='rounded-sm border-stickered border-solid border text-[10px] py-1 x-2 mr-2'
                                                             value={item.qty}
                                                             onChange={(e) => addToCartHandler(item, Number(e.target.value))}
                                                             id="">
-                                                                {[...Array(item.countInStock).keys()].map((x) => (
-                                                                    <option value={x+1} key={x+1}>
-                                                                        {x+1}
-                                                                    </option>
-                                                                ))}
-                                                            </select>
-                                                            <button className='py-1  px-3 bg-stickered rounded-sm text-[10px] text-creamst hover:bg-creamst hover:text-stickered duration-300'
-                                                                onClick={() => removeFromCartHandler(item.id)}
-                                                                >
-                                                                    Delete
-                                                            </button>
-                                                        </div>
+                                                            {[...Array(item.countInStock).keys()].map((x) => (
+                                                                <option value={x + 1} key={x + 1}>
+                                                                    {x + 1}
+                                                                </option>
+                                                            ))}
+                                                        </select>
+                                                        <button className='py-1 px-3 bg-stickered rounded-sm text-[10px] text-creamst hover:bg-creamst hover:text-stickered duration-300'
+                                                            onClick={() => removeFromCartHandler(item.id)}>
+                                                            Delete
+                                                        </button>
                                                     </div>
                                                 </div>
-                                           
+                                            </div>
                                         </li>
                                     </ul>
                                 ))}
-                    
+
                             </div>
                         </div>
                     )}
