@@ -46,7 +46,7 @@ export default function CartSidebar(props) {
                         {cartItems.map((item) => (
                             <div key={item.id} className="p-2 flex items-center border-b border-b-gray-600">
                                 <Link href={`store/product/${item.id}`} className="flex items-center justify-center mr-1 w-28">
-                                    <Image src={item.image} alt={item.image} width={100} height={100} className="" />
+                                    <Image src={item.image} alt={item.name} width={100} height={100} className="" />
                                 </Link>
                                <div>
                                     <div className="text-greenst text-xs font-semibold mb-2">{item.name}</div>
