@@ -46,7 +46,7 @@ export default function CartPage() {
     };
 
     return (
-        <div className='flex h-screen'>
+        <div className='flex h-full mb-36'>
             <StoreHeader text="Cart" backUrl='/store' cartDisplay='opacity-0 cursor-default' />
 
             <div className='mt-24 md:mt-32 w-full px-5'>

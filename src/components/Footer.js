@@ -9,21 +9,9 @@ export default function Footer() {
           </p>
   
           {/* Links to Important Pages */}
-          <div className="text-sm">
-            <a href="/about" className="hover:underline mx-2">About Us</a>
-            <a href="/contact" className="hover:underline mx-2">Contact Us</a>
-            <a href="/faq" className="hover:underline mx-2">FAQ</a>
-            <a href="/terms" className="hover:underline mx-2">Terms of Service</a>
-            <a href="/privacy" className="hover:underline mx-2">Privacy Policy</a>
-          </div>
+        
   
-          {/* Social Media Links */}
-          <div className="text-sm">
-            Follow us on 
-            <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline mx-2">Twitter</a>, 
-            <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline mx-2">Facebook</a>, and 
-            <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-pink-400 hover:underline mx-2">Instagram</a>.
-          </div>
+    
   
           {/* Contact Information */}
           <div className="text-sm">
