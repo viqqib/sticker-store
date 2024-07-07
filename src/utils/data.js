@@ -23,7 +23,7 @@ export const data = {
             size: 'L',
             categories: ['Anime'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Show your love for Chainsaw Man with this Anime sticker. A must-have for fans, it adds a cool vibe to your collection.'
@@ -37,7 +37,7 @@ export const data = {
             size: 'L',
             categories: ['Music'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Celebrate your favorite band with the Arctic Monkeys Sticker. Perfect for music lovers, this sticker will make your items stand out.'
@@ -65,7 +65,7 @@ export const data = {
             size: 'L',
             categories: ['Cat','Meme'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Add some cuteness to your collection with the Happy Banana Cat Sticker. This adorable meme sticker is sure to cheer you up.'
@@ -79,7 +79,7 @@ export const data = {
             size: 'L',
             categories: ['Anime'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Support your favorite volleyball team with the Haikyuu Nekoma Badge Sticker. Perfect for fans of the Anime series.'
@@ -93,7 +93,7 @@ export const data = {
             size: 'L',
             categories: ['Anime'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Show your love for Karasuno with this Haikyuu Badge Sticker. A great addition for any Haikyuu fan.'
@@ -107,7 +107,7 @@ export const data = {
             size: 'L',
             categories: ['Anime'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Celebrate your favorite setter with the Haikyuu Kageyama Sticker. Ideal for adding a touch of Anime flair to your items.'
@@ -121,7 +121,7 @@ export const data = {
             size: 'L',
             categories: ['Anime'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Display your fandom with the Haikyuu Tsukki Sticker. Perfect for fans of the tall and stoic blocker.'
@@ -135,7 +135,7 @@ export const data = {
             size: 'L',
             categories: ['Anime'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Enjoy the cuteness of Haikyuu with the Chibi Tsukki Sticker. A delightful sticker for any fan of the series.'
@@ -149,7 +149,7 @@ export const data = {
             size: 'L',
             categories: ['Anime'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Bring the charm of Anya to your collection with the Spy X Family Sticker. A great pick for fans of the hit Anime series.'
@@ -233,7 +233,7 @@ export const data = {
             size: 'L',
             categories: ['Anime', 'Movie', 'Ghibli'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: "Bring a touch of magic to your belongings with this Jiji sticker from Kiki's Delivery Service. Perfect for fans of Studio Ghibli and its charming characters."
@@ -247,7 +247,7 @@ export const data = {
             size: 'L',
             categories: ['Anime', 'Movie', 'Ghibli'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Show your appreciation for the mysterious No-Face from Spirited Away with this striking sticker. Ideal for Studio Ghibli enthusiasts.'
@@ -317,7 +317,7 @@ export const data = {
             size: 'L',
             categories: ['Anime', 'Movie', 'Ghibli'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Bring the magic of Studio Ghibli to your collection with this adorable Totoro sticker. Perfect for fans of My Neighbor Totoro.'
@@ -331,7 +331,7 @@ export const data = {
             size: 'L',
             categories: ['Anime', 'Movie', 'Ghibli'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Celebrate the whimsical world of My Neighbor Totoro with this charming sticker. Ideal for Studio Ghibli enthusiasts.'
@@ -387,7 +387,7 @@ export const data = {
             size: 'L',
             categories: ['Anime'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Brighten up your belongings with this adorable Shoyo chibi sticker from Haikyuu. Perfect for fans of the energetic protagonist.'
@@ -415,7 +415,7 @@ export const data = {
             size: 'L',
             categories: ['Anime'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Celebrate your favorite character from Haikyuu with this Kenma chibi sticker. A great addition for fans of the analytical player.'
@@ -443,7 +443,7 @@ export const data = {
             size: 'L',
             categories: ['Anime'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Add a touch of Haikyuu magic to your collection with this Kageyama bubble sticker. Perfect for fans of the volleyball series.'
@@ -471,7 +471,7 @@ export const data = {
             size: 'L',
             categories: ['Anime', 'Movie', 'Ghibli'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Bring some feline magic to your collection with this Jiji sticker from Kiki\'s Delivery Service. Perfect for Studio Ghibli lovers.'
@@ -485,7 +485,7 @@ export const data = {
             size: 'L',
             categories: ['Anime'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Show your love for Haikyuu with this hilarious Tsukishima meme sticker. A must-have for fans of the sharp-tongued middle blocker.'
@@ -555,7 +555,7 @@ export const data = {
             size: 'L',
             categories: ['Meme'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Add some humor with the Tom meme "Lu Itu Ga Diajak". A must-have for fans of this classic cat.'
@@ -667,7 +667,7 @@ export const data = {
             size: 'L',
             categories: ['K-pop'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Celebrate Haerin from NewJeans with this adorable Powerpuff-inspired sticker. Perfect for fans of the rising K-pop group.'
@@ -681,7 +681,7 @@ export const data = {
             size: 'L',
             categories: ['K-pop'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Get a fun and bubbly Hanni from NewJeans with this cute bubble gum sticker. Ideal for any NewJeans fan.'
@@ -695,7 +695,7 @@ export const data = {
             size: 'L',
             categories: ['Meme', 'K-pop'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Laugh along with Haerin from NewJeans in this funny McDonald meme sticker. A must-have for fans who love a good meme.'
@@ -737,7 +737,7 @@ export const data = {
             size: 'L',
              categories: ['Game'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Celebrate the enigmatic Hu Tao from Genshin Impact with this vibrant sticker. A must-have for any Genshin fan.'
@@ -751,7 +751,7 @@ export const data = {
             size: 'L',
              categories: ['Game'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Honor the mighty Raiden Shogun from Genshin Impact with this powerful sticker. Perfect for fans of the Electro Archon.'
@@ -765,7 +765,7 @@ export const data = {
             size: 'L',
              categories: ['Game'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Capture the elegance of Kazuha from Genshin Impact with this beautiful sticker. An excellent addition for any Genshin fan.'
@@ -807,7 +807,7 @@ export const data = {
             size: 'L',
             categories: ['Music'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Decorate with the lyrics from "Saturn" by SZA.'
@@ -821,7 +821,7 @@ export const data = {
             size: 'L',
             categories: ['Music'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Show your love for Taylor Swift with this heart sticker.'
@@ -877,7 +877,7 @@ export const data = {
             size: 'L',
             categories: ['Music'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Capture the essence of "Deja Vu" by Olivia Rodrigo with this lyric sticker.'
@@ -891,7 +891,7 @@ export const data = {
             size: 'L',
             categories: ['Music'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Celebrate Taylor Swift\'s "1989" album with this sticker.'
@@ -947,7 +947,7 @@ export const data = {
             size: 'L',
             categories: ['Music'],
             type: 'Sticker',
-            countInStock: 0,
+            countInStock: 1,
             rate: 5,
             numReviews: 10,
             description: 'Capture the mood of "Do I Wanna Know" by Arctic Monkeys with this lyric sticker.'
@@ -975,7 +975,7 @@ export const data = {
             size: 'L',
             categories: ['Music'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Express yourself with "Nobody Get Me" by SZA with this lyric sticker.'
@@ -1003,7 +1003,7 @@ export const data = {
             size: 'L',
             categories: ['Music'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Capture the emotions of "Pretty When I Cry" by Lana Del Rey with this sticker.'
@@ -1045,7 +1045,7 @@ export const data = {
             size: 'L',
             categories: ['Quote & Text'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Playfully tease with the "Loser" yellow text sticker.'
@@ -1059,7 +1059,7 @@ export const data = {
             size: 'L',
             categories: ['Anime','Quote & Text'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Channel confidence with "Nah I’d Win" Gojo Satoru quote sticker.'
@@ -1115,7 +1115,7 @@ export const data = {
             size: 'L',
             categories: ['Cute & Girl'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Show your love with the Kuromi Heart sticker.'
@@ -1129,7 +1129,7 @@ export const data = {
             size: 'L',
             categories: ['Cute & Girl'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Capture the vibe with the Girl with Headphones sticker.'
@@ -1157,7 +1157,7 @@ export const data = {
             size: 'L',
             categories: ['Cat'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Adorable Cat Licking sticker for cat lovers.'
@@ -1171,7 +1171,7 @@ export const data = {
             size: 'L',
             categories: ['Cat'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Cute Cat in Box sticker for all cat enthusiasts.'
@@ -1185,7 +1185,7 @@ export const data = {
             size: 'L',
             categories: ['Cute & Girl', 'Quote & Text'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Shine bright with the Stargirl sticker.'
@@ -1227,7 +1227,7 @@ export const data = {
             size: 'L',
             categories: ['K-pop', 'Cute & Girl'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Cute Cat in Lazy sticker for all cat enthusiasts.'
@@ -1241,7 +1241,7 @@ export const data = {
             size: '4.4cm',
             categories: ['Pin', 'Ghibli'],
             type: 'Pin',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Adorable Totoro Ghibli pin for fans of Studio Ghibli.'
@@ -1255,7 +1255,7 @@ export const data = {
             size: '4.4cm',
             categories: ['Pin', 'Ghibli'],
             type: 'Pin',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Mysterious Kaonashi Spirited Away pin from Studio Ghibli.'
@@ -1311,7 +1311,7 @@ export const data = {
             size: '4.4cm',
             categories: ['Pin', 'Ghibli'],
             type: 'Pin',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Charming blue Totoro pin from Studio Ghibli.'
@@ -1325,7 +1325,7 @@ export const data = {
             size: '4.4cm',
             categories: ['Pin', 'Cute & Girl'],
             type: 'Pin',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Pretty pink flower pin for a touch of elegance.'
@@ -1339,7 +1339,7 @@ export const data = {
             size: '4.4cm',
             categories: ['Pin', 'Ghibli'],
             type: 'Pin',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Adorable Jiji from Kiki\'s Delivery Service pin.'
@@ -1395,7 +1395,7 @@ export const data = {
             size: '4.4cm',
             categories: ['Pin', 'Anime', 'Quote & Text'],
             type: 'Pin',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Bold Gojo Satoru pin expressing love for a significant other.'
