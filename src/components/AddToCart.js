@@ -62,7 +62,7 @@ export default function AddToCart({
                     <button
                         className='w-full bg-gray-400 cursor-not-allowed text-white font-bold text-[0.7rem] py-2 md:text-sm md:py-2 mt-1 md:mt-0'
                         disabled>
-                        Product Habis
+                        Habis
                     </button>
                 )}
             </div>
