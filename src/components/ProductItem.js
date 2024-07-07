@@ -8,7 +8,7 @@ export default function ProductItem({ product }) {
     if (!product || !Array.isArray(product.categories)) return null; // Ensure product and categories are defined and categories is an array
 
     const truncatedName =
-        product.name.length > 21 ? `${product.name.substring(0, 20)}...` : product.name;
+        product.name.length > 21 ? `${product.name.substring(0, 19)}...` : product.name;
 
     const formatRupiah = (num) => {
         return new Intl.NumberFormat("id-ID", {

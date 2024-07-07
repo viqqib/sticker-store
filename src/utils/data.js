@@ -261,7 +261,7 @@ export const data = {
             size: 'L',
             categories: ['Anime'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Celebrate your favorite character from Jujutsu Kaisen with this Choso sticker. A must-have for fans of the popular Anime series.'
@@ -275,7 +275,7 @@ export const data = {
             size: 'L',
             categories: ['Anime'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Add a heroic touch to your collection with this Yuji Itadori sticker from Jujutsu Kaisen. Perfect for Anime fans looking to personalize their items.'
@@ -709,7 +709,7 @@ export const data = {
             size: 'L',
             categories: ['K-pop'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Honor Mingyu from Seventeen with this dog badge-inspired sticker. A great addition for Carats.'
@@ -723,7 +723,7 @@ export const data = {
             size: 'L',
             categories: ['K-pop'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Show your support for NewJeans with this stylish logo sticker. Perfect for fans of the trending K-pop group.'
@@ -863,7 +863,7 @@ export const data = {
             size: 'L',
             categories: ['Music'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Show your admiration for Mitski with this logo sticker.'
@@ -905,7 +905,7 @@ export const data = {
             size: 'L',
             categories: ['Music'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Display the iconic Oasis logo with this sticker.'
@@ -933,7 +933,7 @@ export const data = {
             size: 'L',
             categories: ['Music'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Display the classic Radiohead logo with this sticker.'
@@ -947,7 +947,7 @@ export const data = {
             size: 'L',
             categories: ['Music'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Capture the mood of "Do I Wanna Know" by Arctic Monkeys with this lyric sticker.'
@@ -1073,7 +1073,7 @@ export const data = {
             size: 'L',
             categories: ['Quote & Text'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Inspire with the "Do What You Love" sticker.'
@@ -1087,7 +1087,7 @@ export const data = {
             size: 'L',
             categories: ['Cute & Girl'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Adorable Kuromi Sanrio sticker for fans of cute characters.'
@@ -1101,7 +1101,7 @@ export const data = {
             size: 'L',
             categories: ['Cute & Girl'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Sweet My Melody Sanrio sticker for those who love adorable characters.'
@@ -1143,7 +1143,7 @@ export const data = {
             size: 'L',
             categories: ['Cute & Girl', 'K-pop'],
             type: 'Sticker',
-            countInStock: 1,
+            countInStock: 0,
             rate: 5,
             numReviews: 10,
             description: 'Nostalgic 8bit Girl in New Jeans sticker.'
